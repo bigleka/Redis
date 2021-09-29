@@ -22,3 +22,6 @@ while cursor != 0:
                 r.delete(key)
                 print ("removendo chave: "+str(key))
         time.sleep(1) # adiciona um suspiro entre as entradas de 1000, pode ser comentado
+
+# claro que tem formas mas fáceis de fazer como FLUSHALL ou outros métodos,
+# mas a ideia desse método é gerar tráfego de comandos.
